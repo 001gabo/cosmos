@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="utf-8"/>
+        <title>El cosmos</title>
+        
+        <link rel="stylesheet" href="../css/parallax.css"/>
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap-theme.css">
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+        <script src="../js/javascript1.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>       
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script>$(document).ready(function(){
+        $('section[data-type="parallax_section"]').each(function(){
+            var $bgobjeto=$(this);
+            $(window).scroll(function(){ 
+                $window=$(window);
+                var yPos= -($window.scrollTop()/$bgobjeto.data('speed'));
+                var coordenadas= '50%' + yPos + 'px';
+                $bgobjeto.css({backgroundPosition: coordenadas});
+            });
+        });
+    })</script>        
+    </head>
+    
+    <body>
+        <!--navbar-->
+          <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> 
+                      </button>
+                <a class="navbar-brand page-scroll" href="#">Inicio</a>
+            </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item"><a class="nav-link page-scroll" href="#seccion2">¿Que es?</a></li>
+                        <li class="nav-item"><a class="nav-link page-scroll" href="#seccion3">Parrafo 2</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+         <!--navbar-->
+        
+        <!--Cuerpo-->
+        
+        <div id="warp">
+            <div class="parallax">
+                 <div id="home" data-type="parallax_section" data-speed="10">
+                    <article>
+                        <div id="layer-1" class="img-parallax"></div>
+                        <div id="layer-2" class="img-parallax"></div>
+                        <div id="layer-3" class="img-parallax"></div>
+                    </article>
+                </div>
+            </div>
+                <div id="seccion2" data-type="parallax_section" data-speed="10">
+                    <article>
+                        <h2>Pagina: 2</h2>
+                    </article>
+                </div> 
+
+                <div id="seccion3" data-type="parallax_section" data-speed="10">
+                    <article>
+                        <h2>Pagina: 3</h2>
+                    </article>
+                </div> 
+            </div>
+        
+        <!--Cuerpo-->
+        
+       
+    
+    </body>
+</html>
