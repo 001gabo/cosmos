@@ -23,7 +23,7 @@ function convertir(){
         case 3:
             //Años luz a Mts 
             resultado=d1/lymt;
-            document.miformulario.resultado.value=resultado + " Años luz";
+            document.miformulario.resultado.value=resultado + " Mts";
             break;
             
     }
