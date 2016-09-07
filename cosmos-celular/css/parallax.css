@@ -26,11 +26,16 @@
 }*/
 #home{
     background: url(../img/inmovil.jpg) 50% 0 no-repeat fixed;
-    background-position: center;
+    background-position:;
 }
-#seccion2, #seccion3,#seccion4,#seccion5,#seccion6{
+#seccion2, #seccion3,#seccion4,#seccion5,#seccion6,#seccion7{
     background: url(../img/fondo2.jpg);
 }
+#seccion7 p{
+    color: white;
+    font-size: 20px;
+}
+
 #seccion2{
     background: url(../img/fondo2.jpg);
     margin: 0px auto;
