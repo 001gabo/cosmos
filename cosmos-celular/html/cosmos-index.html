@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="utf-8"/>
+        <title>El cosmos</title>
+        
+        <link rel="stylesheet" href="../css/parallax.css"/> 
+        <script src="../js/operaciones.js"></script> 
+        <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css" >
+        
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.0/css/bootstrap-select.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.0/js/bootstrap-select.min.js"></script>
+
+<!-- (Optional) Latest compiled and minified JavaScript translation files -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.0/js/i18n/defaults-*.min.js"></script>
+
+
+
+        
+<script>$(document).ready(function(){
+        $('section[data-type="parallax_section"]').each(function(){
+            var $bgobjeto=$(this);
+            $(window).scroll(function(){ 
+                $window=$(window);
+                var yPos= -($window.scrollTop()/$bgobjeto.data('speed'));
+                var coordenadas= '50%' + yPos + 'px';
+                $bgobjeto.css({backgroundPosition: coordenadas});
+            });
+        });
+    })</script>        
+    </head>
+    
+    <body>
+        <!--navbar-->
+          <nav class="navbar navbar-inverse navbar-fixed-top">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                  <a class="navbar-brand" href="#home">Inicio</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                      <li><a class="active" href="#seccion2">Que es?</a></li>
+                      <li><a href="#seccion3">En la filosofia</a></li>
+                      <li><a href="#seccion4">En la f&iacute;sica</a></li>
+                      <li><a href="#seccion5">En la literatura</a></li>
+                      <li><a href="#seccion6">Conversión</a></li>
+                    </ul>
+                </div>
+              </div>
+            </nav>
+
+         <!--navbar-->
+        
+        <!--Cuerpo-->
+        
+        <div id="warp">
+            <div class="parallax">
+                 <div id="home" data-type="parallax_section" data-speed="10">
+                    <article>
+                        <div id="layer-1" class="img-parallax"></div>
+                        <div id="layer-2" class="img-parallax"></div>
+                        <div id="layer-3" class="img-parallax"></div>
+                    </article>
+                </div>
+            
+                <div id="home-mobile"></div>
+                
+                <div id="seccion2" data-type="parallax_section" data-speed="10">
+                    <div class="row">
+                        <div class="container" >
+                            
+                        <div class="col-md-6 col-sm-12">
+                            <br><br><br><br>
+                            <div class="jumbotron" id="jumbotron-que-es">
+                                    <h2>¿Que es el cosmos?</h2>
+                                    <p>En su sentido más general, un cosmos es un sistema ordenado o armonioso. Se utiliza como sinónimo de universo, considerando el orden que éste posee, antítesis de caos. El estudio del cosmos, desde cualquier punto de vista, se llama cosmología.<br>Cuando esta palabra se usa como término absoluto, significa todo lo que existe, incluyendo lo que se ha descubierto y lo que no.</p>
+                            </div>  
+                        </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div id="layer-4" class="img-parallax">
+                                <center><img src="../img/sun.png" class="img-responsive"></center>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                </div> 
+
+                <div id="seccion3" data-type="parallax_section" data-speed="10">
+                     <div class="row">
+                        <div class="container">
+                            <div class="col-md-6 col-sm-12">
+                                <div id="layer-5" class="img-parallax">
+                                <center><img src="../img/pitagoras.png" class="img-responsive"></center>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <br><br><br><br>
+                                <div class="jumbotron" id="jumbotron-que-es">
+                                        <h2>En la filosofia antigua y medieval</h2>
+                                        <p>Según Filolao y otros autores de la antigüedad, fue Pitágoras el primero que uso el término cosmos para referirse al orden del universo, y al universo mismo. Filolao usaba esta palabra en plural para referirse a los cuerpos celestes que circulan alrededor del mundo. Posteriormente, en la filosofía helenística, se usaría para designar al conjunto del cielo y la tierra.</p>
+                                </div>  
+                                
+                            </div>
+                    </div>
+                    </div>
+                </div> 
+                <div id="seccion4" data-type="parallax_section" data-speed="10">
+                    <div class="row">
+                        <div class="container">
+                            
+                        <div class="col-md-6 col-sm-12">
+                            <br><br><br><br>
+                            <div class="jumbotron" id="jumbotron-que-es">
+                                    <h2>En la f&iacute;sica</h2>
+                                    <p>En la cosmología física, el término cosmos se usa a menudo y se refiere a un continuo espacio-tiempo dentro de un (postulado) multiverso. En general, nuestro particular cosmos se denomina "Cosmos".</p>
+                            </div>  
+                        </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div id="layer-6" class="img-parallax">
+                                 <center><img src="../img/meteor.png" class="img-responsive"></center>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                </div> 
+                <div id="seccion5" data-type="parallax_section" data-speed="10">
+                    <div class="row">
+                        <div class="container">
+                            <div class="col-md-6 col-sm-12">
+                                <br><br><br><br>
+                                <div id="layer-7" class="img-parallax">
+                                <center><img src="../img/earth.png" class="img-responsive"></center>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <br><br><br><br>
+                                <div class="jumbotron" id="jumbotron-que-es">
+                                        <h2>En la literatura</h2>
+                                        <p>La vista del cosmos como “naturaleza autosuficiente, autónoma” está en contraste agudo con la perspectiva de la naturaleza como un simple mecanismo para el crecimiento de los animales.<br>
+                                        En la opinión del mundo del cosmos, el hombre es parte de la naturaleza, mientras que, en opinión del mundo del mecanismo, el hombre domina la naturaleza.</p>
+                                </div>  
+                                
+                            </div>
+                    </div>
+                    </div>
+                </div>
+                <div id="seccion6" data-type="parallax_section" data-speed="10">
+                    <br><br><br><br><br><br><br><br><br>
+                    <div class="row">
+                        
+                            <div class="col-md-1 col-sm-12"></div>
+                            <div class="col-md-10 col-sm-12">
+                                 <div class="jumbotron">
+                                     <center><h3>Convertidor de distancias</h3></center>
+                                    <form name="miformulario">
+                                       
+                                        <div class="fluid-container">
+                                            <div class="row">
+                                                <div class="col-md-4 col-md-offset-1 col-sm-12" style="text-align:center;">
+                                                    <input type="text" name="numero1" size="20" style="text-align:right;" maxlength="9" autofocus placeholder="Digite la distancia" class="form-control"><br>
+                                                    <select class="selectpicker" id="opciones" onchange="val()">
+                                                        <option value="0">Años luz a Kms</option>
+                                                        <option value="1">Kms a a&ntilde;os Luz</option>
+                                                        <option value="2">Mts a a&ntilde;os Luz</option>
+                                                        <option value="3">Años luz a Mts</option>
+                                                    </select>
+                                                    <br><br>  
+                                                    <input type="button" class="btn btn-primary" value="Convertir" onclick="convertir()"> <br><br> 
+                                                    <input type="reset" class="btn btn-warning" value="Borrar">&ensp;
+                                                </div>
+                                                    <div class="col-md-4 col-md-offset-1 col-sm-12">
+                                                        <br>
+                                                    <center>El resultado es:<br>
+                                                        <input type="text" name="resultado" style="text-align: center;"  class="form-control" disabled></center>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                            </div>
+                            <div class="col-md-1 col-sm-12"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="navbar navbar-inverse navbar-fixed-bottom">
+            <div class="container">
+                <div class="navbar-text pull-left">
+                    <p>Desarrollado por: Gabriel Rodriguez</p>
+                </div>
+                <div class="navbar-text pull-right">
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>&ensp; &ensp;
+                    <a href="https://www.instagram.com/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>&ensp; &ensp;
+                    <a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a>&ensp; &ensp;
+                    <a href="https://twitter.com/"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>&ensp; &ensp;
+                    <a href="https://www.youtube.com/"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>&ensp; &ensp;
+                </div>
+            </div>
+        </div>
+
+                
+                </div> 
+            </div>
+        <!--Cuerpo-->
+        
+       
+    
+    </body>
+</html>

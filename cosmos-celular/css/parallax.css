@@ -1,0 +1,119 @@
+*,html{
+    margin: 0px;
+    padding: 0px;
+}
+/*Efecto Parallax*/
+/*#layer-1{
+    background: url(../img/planeta.png) no-repeat -15px 100px;
+}
+#layer-2{
+    background: url(../img/ufo-spaceship.png) no-repeat 650px 150px;
+}
+#layer-3{
+    background: url(../img/elcosmos.png) no-repeat -350px -10px;
+}
+#layer-4{
+    background: url(../img/sun.png) no-repeat -10px 520px;
+}
+#layer-5{
+    background: url(../img/pitagoras.png) no-repeat -120px 960px;
+}
+#layer-6{
+    background: url(../img/meteor.png) no-repeat -120px 1600px;
+}
+#layer-7    {
+    background: url(../img/earth.png) no-repeat -80px 2400px;
+}*/
+#home{
+    background: url(../img/inmovil.jpg) 50% 0 no-repeat fixed;
+    background-position: center;
+}
+#seccion2, #seccion3,#seccion4,#seccion5,#seccion6{
+    background: url(../img/fondo2.jpg);
+}
+#seccion2{
+    background: url(../img/fondo2.jpg);
+    margin: 0px auto;
+    max-width: 1920px;
+    min-height: 700px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+#seccion3,#seccion4,#seccion5,#seccion6{
+    margin: 0px auto;
+    max-width: 1920px;
+    min-height: 700px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: black;
+    background-position: center;
+}
+ 
+#home{
+    margin: 0px auto;
+    max-width: 1920px;
+    min-height: 700px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+ 
+
+#home,#seccion2,#seccion3{
+    -webkit-box-shadow: 0px 0px 20px rgba(0,0,0,0.4); 
+    -moz-box-shadow: 0px 0px 20px rgba(0,0,0,0.4); 
+    -o-box-shadow: 0px 0px 20px rgba(0,0,0,0.4); 
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);  
+}
+
+article{
+    padding: 100px;
+}
+#pie{
+    text-align: center;
+    font-weight: 600;
+    background-color: greenyellow;
+    color: black;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -60px;
+  padding: 0 0 60px;
+}
+/*.img-parallax{
+    position: fixed;
+    width: 100%;
+    height: 10000px;
+}*/
+.parallax{
+    height: 500%;
+    background-size: cover;
+}
+
+#jumbotron-que-es p{
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+}
+.jumbotron {
+    border-radius: 30px;
+}
+.ontainer{
+    text-align: center;
+}
